@@ -1,0 +1,14 @@
+yarn create react-app web --template typescript
+
+yarn add react-icons
+
+yarn add react-router-dom
+yarn add -D @types/react-router-dom 
+
+# https://react-leaflet.js.org/docs/en/intro
+yarn add leaflet react-leaflet
+yarn add -D @types/react-leaflet
+
+# alternativa de mapa
+# https://www.mapbox.com/
+
