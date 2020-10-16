@@ -18,22 +18,12 @@ Projeto Happy desenvolvido durante a Next Level Week (NLW) 03 da Rocketseat (Out
 
 O Happy é uma plataforma de busca e agendamento de visitas a orfanatos/asilos. Pessoas podem encontrar locais próximos e conhecer as regras/disponibilidade. Após encontrar, o voluntário pode entrar em contato via Whatsapp.
 
-Funcionalidades Extras:
-
-- Web:
-  - TODO
-
 <br>
 
 ## Web (desktop)
 
 TODO
-![Frontend](./assets/web/web-desktop.gif)
-
-## Web (mobile)
-
-TODO
-![Frontend](./assets/web/web-phone.gif)
+![Frontend](./assets/web/web-low.gif)
 
 <br>
 
@@ -42,7 +32,7 @@ TODO
 <!---<img src="./assets/mobile/mobile.gif" height="500"> --->
 
 TODO
-![Mobile](./assets/mobile/mobile.gif)
+![Mobile](./assets/mobile/mobile-low.gif)
 
 <br>
 
@@ -54,15 +44,18 @@ Backend:
 
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://www.npmjs.com/package/express)
-- [Knex](http://knexjs.org/)
+- [TypeORM](https://typeorm.io/)
 - [SQLite3](https://www.npmjs.com/package/sqlite3)
 - [Insomnia](https://insomnia.rest/download/)
+- [Multer](https://github.com/expressjs/multer)
+- [Yup](https://github.com/jquense/yup)
 
 Frontend:
 
 - [React](https://reactjs.org/)
-- [react-navigation](https://reactnavigation.org/docs/getting-started)
+- [react-router-dom](https://reactrouter.com/web/guides/quick-start)
 - [axios](https://www.npmjs.com/package/axios)
+- [Leaflet](https://react-leaflet.js.org/docs/en/intro)
 
 Mobile:
 
@@ -70,6 +63,7 @@ Mobile:
 - [Expo](https://expo.io/)
 - [axios](https://www.npmjs.com/package/axios)
 - [react-navigation](https://reactnavigation.org/docs/getting-started)
+- [expo-image-picker](https://docs.expo.io/versions/latest/sdk/imagepicker/)
 
 <br>
 
@@ -105,7 +99,7 @@ Mobile:
 - Create database
 
   ```
-  yarn knex migrate:latest
+  yarn typeorm migration:run
   ```
 
 - Install frontend dependencies
@@ -130,7 +124,7 @@ Mobile:
 
 ```
 cd backend
-yarn start
+yarn dev
 ```
 
 ## Frontend
