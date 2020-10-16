@@ -22,7 +22,6 @@ O Happy é uma plataforma de busca e agendamento de visitas a orfanatos/asilos. 
 
 ## Web (desktop)
 
-TODO
 ![Frontend](./assets/web/web-low.gif)
 
 <br>
@@ -31,7 +30,6 @@ TODO
 
 <!---<img src="./assets/mobile/mobile.gif" height="500"> --->
 
-TODO
 ![Mobile](./assets/mobile/mobile-low.gif)
 
 <br>
